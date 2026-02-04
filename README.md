@@ -12,6 +12,21 @@ Use these scripts to help:
 - Scripts that assist with starting/stopping and automating Performance Analyzer collections.
 - Supporting utilities and helper content used during troubleshooting.
 
-##Notes / Disclaimer
-Scripts are provided as-is and may require adaptation for your environment.
-Review scripts before running them, especially in production environments, and follow your organization’s change-control and security policies.
+## Scripts
+- **[MDAV-Troubleshooting.ps1](./MDAV-Troubleshooting.ps1)**
+  - Quick starter commands for collecting an MDAV Performance Analyzer recording (`New-MpPerformanceRecording`) and generating common reports (`Get-MpPerformanceReport`).
+  - Notes:
+    - Update the `-Path` value to the location of your `.etl` recording.
+
+- **[EICAR-Download-Loop.ps1](./EICAR-Download-Loop.ps1)**
+  - Continuously downloads the EICAR test file in a loop for demo/testing scenarios.
+  - Notes:
+    - Use only in controlled test environments.
+    - Stop with **Ctrl+C**.
+
+## Notes / Disclaimer
+- Scripts are provided **as-is** with **no warranties** or guarantees.
+- Review and understand scripts before running them. Test in a **non-production** environment first.
+- Follow your organization’s change-control and security policies.
+- You are responsible for any impact to system performance, stability, security, telemetry, or compliance.
+- This is **not** an official Microsoft product or support offering.
