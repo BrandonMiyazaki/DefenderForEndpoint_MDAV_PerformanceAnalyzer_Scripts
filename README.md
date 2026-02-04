@@ -29,4 +29,3 @@ Use these scripts to help:
 - Review and understand scripts before running them. Test in a **non-production** environment first.
 - Follow your organization’s change-control and security policies.
 - You are responsible for any impact to system performance, stability, security, telemetry, or compliance.
-- This is **not** an official Microsoft product or support offering.
